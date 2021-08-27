@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.tweets-container {
+
+    background-color: black;
+    color: #fff;
+    height: 100%;
+    padding-top: 20%;
+
+}
+
+.tweets-container .tweet {
+    width: 500px;
+    max-width: 500px;
+    border-radius: 5px;
+    background: #16202a;
+    padding: 15px 15px;
+    margin: auto;
+}
+
+.tweet .header {
+
+    margin-bottom: 10px;
+
+}
+
+.tweet .header img.header-image {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet .tweet-content .content {
+
+    font-weight: 600;
+
+
+}
+
+
+.tweet .header .header-content span.user-name {
+
+    font-size: bold;
+    vertical-align: top;
+
+}
+
+.tweet .header .header-content span.expand-icone {
+
+
+    vertical-align: top;
+    margin-left: 370px;
+    color: #8899a7;
+}
+
+.tweet .header p.user-id {
+
+    opacity: 1;
+    color: #8899a7;
+    vertical-align: top;
+    padding-top: -45px;
+    margin-top: -30px;
+    padding-bottom: 12px;
+    padding-left: 64px;
+
+}
+
+.tweet-content .content {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.tweet-content .tweet-meta {
+    font-size: 16px;
+    margin-top: 19px;
+    margin-bottom: 15px;
+
+    opacity: 0.7;
+}
+
+.tweet-content .tweet-meta .time {
+
+    margin-right: 10px;
+    color: #8899a7;
+    opacity: 1;
+
+}
+
+.tweet-content .tweet-meta .dote-color {
+    color: #8899a7;
+    margin-left: -7px;
+
+    opacity: 1;
+}
+
+.tweet-content .tweet-meta .date {
+    color: #8899a7;
+
+}
+
+
+
+.fix-hr {
+    margin-bottom: 17px;
+    /* color: #8899a7; */
+    opacity: 0.3;
+    background-color: #8899a7;
+}
+
+
+.tweet .footer .actions svg {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+
+}
+
+.tweet .footer .actions span {
+    margin-left: 11px;
+    font-size: 14px;
+
+}
+
+.tweet .footer .actions svg.comment {
+
+    fill: #8899a7;
+    margin-left: 44px;
+
+
+
+}
+
+.tweet .footer .actions span.comment-number {
+
+    color: #8899a7;
+
+
+
+}
+
+.tweet .footer .actions svg.retweet {
+    fill: #32b97a;
+    margin-left: 72px;
+
+}
+
+.tweet .footer .actions span.retweet-number {
+
+    color: #32b97a;
+    /* opacity: 0.1; */
+
+
+
+}
+
+.tweet .footer .actions svg.heart {
+
+
+    fill: #e6235f;
+    margin-left: 70px;
+
+}
+
+.tweet .footer .actions span.heart-number {
+
+    color: #e6235f;
+    font-size: 14px;
+
+
+}
+
+.tweet .footer .actions svg.send {
+    fill: #8899a7;
+    margin-left: 45px;
+}
